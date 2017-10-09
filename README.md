@@ -1,5 +1,7 @@
 # Development-Adventures
-Development adventures blog for PuZZleDucK.org
+Development adventures blog for PuZZleDucK.org hosted on GitHub Pages at https://puzzleduck.github.io/Development-Adventures/
+
+Development and deployment occurs on the gh-pages branch
 
 # Setup
 
