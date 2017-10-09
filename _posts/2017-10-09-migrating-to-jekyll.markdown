@@ -9,11 +9,4 @@ Today I've started migrating my old (and ongoing) blogs over to a Jekyll blog ho
 
 Apart from the initial Jekyll build command I've been able to do most of the configuration and this post from a mobile device.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
