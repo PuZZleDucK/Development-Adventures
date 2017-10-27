@@ -5,14 +5,14 @@ description: > # ignore newlines until "baseurl:"
   Adventures in software development with PuZZleDucK.
 
 
-baseurl: "Development-Adventures"
+baseurl: "/Development-Adventures"
 url: "https://puzzleduck.github.io"
 twitter_username: _PuZZleDucK_
 github_username:  puzzleduck
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-puzzleduck
 gems:
   - jekyll-feed
 exclude:
