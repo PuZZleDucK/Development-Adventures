@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Orbitals 2 ready for release, ADBassist conversion and OSIA</title>
+  <meta name="description" content="Just a little update on Orbital Live Wallpaper (source), after messing around with the internals (there was some shifty maths going on in the background) I’v...">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="/Development-Adventures/assets/main.css">
+  <link rel="canonical" href="https://puzzleduck.github.io/Development-Adventures/article/2012/08/19/orbitals-and-adb.html">
+  <link rel="alternate" type="application/rss+xml" title="Development Adventures" href="/Development-Adventures/feed.xml">
+
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" defer></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js" defer></script>
+
+    <div class="col card-panel highlight title">
+      <ul id="dropDown" class="dropdown-content primary">
+         <li><a target="_blank" href="https://www.linkedin.com/in/">LinkedIn</a></li>
+         <li class="divider"></li>
+         <li><a target="_blank" href="https://github.com/puzzleduck">GitHub</a></li>
+         <li class="divider"></li>
+         <li><a target="_blank" href="https://twitter.com/_PuZZleDucK_">Twitter</a></li>
+         <li class="divider"></li>
+         <li><a target="_blank" href="https://play.google.com/store/apps/developer?id=">Android</a></li>
+      </ul>
+      <nav>
+         <div class="nav-wrapper primary">
+            <a href="https://puzzleduck.github.io" class="brand-logo center">Development Adventures</a>
+            <ul id="nav-mobile" class="right">
+               <li style="width: 300px !important"><a class="dropdown-button" href="#!" data-activates="dropDown"><i class="material-icons right">menu</i></a></li> <!-- Dropdown Trigger -->
+            </ul>
+         </div>
+      </nav>
+      <h5 class="white-text center">Adventures in software development with PuZZleDucK.
+</h5>
+    </div>
+
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Orbitals 2 ready for release, ADBassist conversion and OSIA</h1>
+    <p class="post-meta">
+      <time datetime="2012-08-19T18:37:56+10:00" itemprop="datePublished">
+        
+        Aug 19, 2012
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Just a little update on Orbital Live Wallpaper (source), after messing around with the internals (there was some shifty maths going on in the background) I’ve been able to separate out the transition away and the transition back to orbit. This allows the transitions to form some interesting patterns. I have also added a new transition (I was hoping for two, but just want to get the updates and fixes out) and a couple of color schemes. Hopefully I’ll be releasing this weekend.</p>
+
+<p>Secondly, I’ve finished converting ADBassist from gtk to swing… I choose gtk initially to get brownie points in the Ubuntu App Challenge and also with the ulterior motive of learning something new. The Java wrapper for gtk was certainly easy to use and I think some things like images and layouts were a touch more user friendly to use but all in all I felt limited in what I could do and was uncertain how well it will handle background processes when I get them going soon. I also felt a touch bad making an application with platform dependencies that were not strictly necessary… that is, I wouldn’t’ve minded using gtk if I got any extra capability, but it seemed not to offer anything I was using (dbus support is the only thing that springs to mind, and I wasn’t using that).</p>
+
+<p>Finally there is also an upcoming open source event in Melbourne (so if you’re not from Australia you might not be all that interested) this week. It totally looks more like an event for managers than techs, but it has potential to be interesting and most importantly there’s free food! Although there is zero chance of me being there by 5:30, but I’ll defiantly rock up at some stage before 8. Well, I’d better go rsvp and try to prepare the release of orbitals. Details below:</p>
+
+<p>“What does the NBN mean to the Open Source Software Industry”
+Date:  Wednesday 22 August
+Time:  5.30 pm for 6.00 pm start to 8.00 pm
+Venue:  NBNCo Discovery Center
+            1010 La Trobe St, Docklands
+Please help make this event a success by promoting it through your own channels as appropriate.
+Event Program:</p>
+<ol>
+  <li>Presentation by NBN Senior Staff on opportunities that likely to arise from the NBN.<br />
+There will also be other NBN personel who will be able to answer questions.</li>
+  <li>Presentation by Kanchana Wickremasinghe, Senath Ltd.
+Kanchana will talk about Senath’s use of Open Source software to deliver the Cloud based PaaS Durga Platform.</li>
+  <li>Update on OSIA activities.</li>
+  <li>Networking opportunity with other guests
+Refreshments available.
+Following the event, you are also invited to join others for dinner somewhere in Melbourne.
+** Please note: RSVP by 20 August is essential. Email osia-events@osia.com.au. **</li>
+</ol>
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    <footer class="page-footer highlight title">
+   <div class="footer-copyright">
+      <div class="container">
+         © 2017 <a href="mailto:"></a>
+         <a class="grey-text text-lighten-4 right" target="_blank" href="">Site Source Code</a>
+      </div>
+   </div>
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.3.1">Jekyll</generator><link href="https://puzzleduck.github.io/Development-Adventures/feed.xml" rel="self" type="application/atom+xml" /><link href="https://puzzleduck.github.io/Development-Adventures/" rel="alternate" type="text/html" /><updated>2017-10-30T20:52:44+11:00</updated><id>https://puzzleduck.github.io/Development-Adventures/</id><title type="html">Development Adventures</title><subtitle>Adventures in software development with PuZZleDucK.
+</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="https://puzzleduck.github.io/Development-Adventures/jekyll/update/2017/10/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-10-09T19:37:56+11:00</published><updated>2017-10-09T19:37:56+11:00</updated><id>https://puzzleduck.github.io/Development-Adventures/jekyll/update/2017/10/09/welcome-to-jekyll</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/jekyll/update/2017/10/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Migrating to Jekyll!</title><link href="https://puzzleduck.github.io/Development-Adventures/minor/update/2017/10/09/migrating-to-jekyll.html" rel="alternate" type="text/html" title="Migrating to Jekyll!" /><published>2017-10-09T19:37:56+11:00</published><updated>2017-10-09T19:37:56+11:00</updated><id>https://puzzleduck.github.io/Development-Adventures/minor/update/2017/10/09/migrating-to-jekyll</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/minor/update/2017/10/09/migrating-to-jekyll.html">&lt;p&gt;Today I’ve started migrating my old (and ongoing) blogs over to a Jekyll blog hosted on github pages. The reasons for this change are that I found the Google hosting to be a bit too restrictive, difficult to maintain, and yet another Google service I could do without.&lt;/p&gt;
+
+&lt;p&gt;Apart from the initial Jekyll build command I’ve been able to do most of the configuration and this post from a mobile device.&lt;/p&gt;</content><author><name></name></author><summary type="html">Today I’ve started migrating my old (and ongoing) blogs over to a Jekyll blog hosted on github pages. The reasons for this change are that I found the Google hosting to be a bit too restrictive, difficult to maintain, and yet another Google service I could do without.</summary></entry><entry><title type="html">Java 8 Lambdas and LEDs</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2014/07/02/lambda-leds.html" rel="alternate" type="text/html" title="Java 8 Lambdas and LEDs" /><published>2014-07-02T18:37:56+10:00</published><updated>2014-07-02T18:37:56+10:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2014/07/02/lambda-leds</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2014/07/02/lambda-leds.html">&lt;p&gt;Why settle for embedded programming when the Raspberry Pi brings the full power of JavaSE into the embedded world.&lt;/p&gt;
+
+&lt;p&gt;Settup Pi according to taste, for me the base setup from scratch is:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Expand FS, SSH on, password change, host-name change (raspi-config).
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Setup avahi/zeroconf&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install avahi-daemon
+sudo insserv avahi-daemon
+(I had to &quot;apt-get remove wolfram-engine&quot; here on model A)
+sudo wget -O /etc/avahi/services/multiple.service puzzleduck.org/DevAdventures/multiple.service
+sudo /etc/init.d/avahi-daemon
+sudo reboot
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Any sane operating system made in the last decade should know about ssh, so were good to go (I hear on windows “bonjour” and “putty” setup is required).&lt;/p&gt;
+
+&lt;p&gt;Now we can ssh into the pi as long as we are on the same network:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh pi@&amp;lt;pi-hostname&amp;gt;.local
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now we need to install Wiring Pi and Pi4J.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git://git.drogon.net/wiringPi
+cd wiringPi
+./build
+cd ..
+
+mkdir Pi4J
+cd Pi4J
+wget http://pi4j.googlecode.com/files/pi4j-0.0.5.deb
+sudo dpkg -i pi4j-0.0.5.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Following here is the talk as I intend to give it at the Melbourne JUG:&lt;/p&gt;
+
+&lt;p&gt;good evening everyone, tonight I’ll be going through how to make your own LED strip and a couple of other handy hardware mods to make working on the raspberry pi with a breadboard a little bit easier for us. and we’ve got a few live demos for things to go wrong too, so hang in there.&lt;/p&gt;
+
+&lt;p&gt;the real basics shopping list for knocking up some cool home made LED circuits I’d reccomend in this order are heatshrink, header pins, LEDs, and resistors… thats right header pins and heatshrink and header pins are more important than the LEDs at least if you want something that looks great and is easy to use. Don’t worry about wire, like I did, as you’ve already got tons of it locked up in ide cables and atx power supplies, and we’ll start cutting them up shortly. Usually the ribbon cable looks better and takes less space than cutting your own wires.&lt;/p&gt;
+
+&lt;p&gt;to hook up all our GPIO &amp;amp; 3v pins we can utilise an old ide ribbon cable and a row of header pins to create a home made raspberry cobbler, just trim out the unused wires (or leave them in, it won’t hurt), that’s really all there is to that one, solder pins to wires and your good to go. one important piece of advice on making your own cobbler is to test and label the wires before soldering so you get the orderings and groupings correct, and then remember to leave the labels on, or you’ll regret it later like me. The other plugs on the IDE cable can be used as ‘micro breadboards’ or power rails by solering each side of the strip together.&lt;/p&gt;
+
+&lt;p&gt;now we’ll take care of the power supply. using an old atx power supply, a breadboard and a handfull of header pins we can get reliable 3-12 volt supplies on our prototyping area, I’m taking my 3 volt supply from the pi and the 5 and 12 volts come from the atx power supply. One of the cables on the atx supply will be header pin friendly, this is the venerable old floppy disk drive power supply, with this and a set of four header pins and two sets of two we can power the rails of our breadboard. The only other wire we’ll need to know about today is the green one on the main ATX connector, this is the ‘power switch’ for the main output voltages and turns on the power supply when shorted to ground, so here I’ve added a switch to allow us to power off the pi and accompanying test circuit without having to unplug anything, but it’s just as easy to short the green wire to ground with a loose bit of wire like I’m doing now and like I did for about a year.&lt;/p&gt;
+
+&lt;p&gt;Now just with another 2 header pins and half an old usb cable (you know the ones with unreliable data connections, they’re great for this) we get reliable 5v supply for the pi and an easy to work with stand alone pi and prototype area, just ignore the green and white wires, the pi does not read data fom this port.&lt;/p&gt;
+
+&lt;p&gt;for testing and just good practice I recommend making an led strip and/or equivalent button panel or d-a-c. starting with three or four units, making sure it works then go for the bigger version. the last thing you want is to do a big project without realizing a simple flaw in your initial circuit that would have shown up in a smaller test circuit on a breadboard or small soldered demo. often I’ll “sketch out a circuit” on a breadboard and leave it connected and running while I solder together a set of two to eight of them, or in this case 17.&lt;/p&gt;
+
+&lt;p&gt;for our LED strip again I’d recommend breadboard friendly header pins, and other than that we just need resistors and LEDs for the Lambda LED project, it’s a nice simple one. So lest start with resistor selection, I’m no expert here but neither are a lot of the people on the internet. I recomend just searching for LED resistor calculators there’s plenty out there, some with handy info like ‘what is my voltage drop on a cheap standard LED likely to be’. Also handy to understand is that these values are quite flexible, the is no simple linear formula but for example I had a circuit where I wanted the LEDs extra bright and I wasn’t concerned with the lifespan of the LEDs, but they were only lit about one eighth of the time and I dropped the resistance to about a third of the recommended value and running that circuit for over a couple of months resulted in no dead LEDs. If you take into consideration what your doing with it.&lt;/p&gt;
+
+&lt;p&gt;So first we’ll solder the resistors onto the header pins, then cover up to the resistors with heat shrink, this helps make sure they don’t short and adds a bit of rigidity … another bonus is hiding any bodgy work we’ve done solering. Unfortunatly heat-shrink can also make fixing any serious error difficult and/or messy, so if in doubt test before shrink wrapping.&lt;/p&gt;
+
+&lt;p&gt;then we bend all the earth wires on the LEDs to 90 degrees and trim the positive (or in reverse if you want to sink current rather than source it, usually you want to source) and then solder them to the tops of the resistors being careful to point all the earths wires in the same direction. then bend the earths 90 degrees about a centimeter away from the LEDs into a neat row, it’d probably be ok to trim them back to make a thinner ground plane, there’s not many amps running around this one, I was being way over cautious. then solder the end of that strip too a wire with a pin. Quite a simple hardware project even us software geeks can get right once in a while. My first four 8xLEDs were a 50% success rate for having one dead LED.&lt;/p&gt;
+
+&lt;p&gt;Now we’ve done the hardware, we’re up to the part we’re really interested in, the software. Now we will log into a terminal using ssh.&lt;/p&gt;
+
+&lt;p&gt;we’ll need to install wiring/pi4j to access gpio pins in java, I’ll assume we’ve covered that last month, but we’ll also install java 8 to access the juicy new features, unfortunately they are ones we’ve already covered at the group so we don’t get to cross any more topics off our list, maybe I’ll try to flash LEDs with annotations during compilation once I get this settled.&lt;/p&gt;
+
+&lt;p&gt;Finally we get to Install Java 8… We need to download the arm java8 release from the JavaSE 8 download page, it’s a bit of a moving terget at the moment and you might want the latest version.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;unzip to the /opt directory
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;then we can simply move into a working project directory and compile and run java8 programs with /opt/java8/bin/javac and the associated java command for running. There are also options for overtaking the default java and javac commands and there are links on how to do that on the online version&lt;/p&gt;
+
+&lt;p&gt;So heres a few I’ve prepared earlier…&lt;/p&gt;
+
+&lt;p&gt;the first version we’ll run here uses a stream and lambda expression to run the sequence forward and an iterative sequence to go backward. The next five loops use two seperate streams and I’m actually happy with that althought I was aiming for something more like the infinate sequence. I’m using a make file here we’ll have a look at if we get time a bit later, for now just take my word that it’s magical pixie dust that works every time.&lt;/p&gt;
+
+&lt;p&gt;so we see it running almost identically in both cases, kind of boring but a nice contrast of functional and iterative styles. So I also wanted to be able to test these things when I didn’t have the hardware avaliable so the next demo demonstrates the ascii version and the power of the display abstraction. Idealy I’d like to now extend this to accomodate leds on shift registers or i2c interfaces.&lt;/p&gt;
+
+&lt;p&gt;So now if we have time we’ll have a look at the make file and the scheduled version. This version uses cron to run a background task every 2 minutes. using the capabilities of Linux running on the raspberry pi we can also setup cron jobs for any task we want triggered on a regular basis as long as our timing requirements aren’t more frequent than one a minute or more accurate than about ten seconds. In a very informal test the most variation I’ve noticed was about six seconds after the minute the event would trigger, two or three was the norm. So here the LED chaser runs every two minutes.&lt;/p&gt;
+
+&lt;p&gt;Unfortunatly I kept getting this nagging feeling that something was wrong and it wasn’t untill I was trying to explain the significance of the code to my Dad that it finally clicked. So I’m trying to think of an example of why functional programing might be usefull in a way that relates to this circuit. So I think “It means it’s easier to verify the correctness of the program”, no that’s not going to impress anyone, how about “It means I’m using all that logic stuff I did at uni”, no that’s not going to impress Dad. and so I stumble into “It’s good for distribuited computation so if this was driven by four seperate CPUs or cores then it should still work” … “that is” … “if it’s written correctly”.&lt;/p&gt;
+
+&lt;p&gt;Well, that got me thinking and after a bit of head scratching I realised I could test this using the paralell stream. Want to see what happens? All we are doing here is replacing the stream() function with parallel stream.&lt;/p&gt;
+
+&lt;p&gt;Anyway we can use forEachOrdered to fix that back up but thats really chickening out… I’m currently thinking about doing something along the lines of a TimerTask to trigger the pulses rather than a delay, but if anyone has any ideas about the functional way to trigger sequenced events I’m all ears, otherwise I’m all answers if anyone has any questions.&lt;/p&gt;
+
+&lt;p&gt;This is all online at puzzleduck.org under the Java Development Adventures section if you ever want to go back and check something.&lt;/p&gt;
+
+&lt;p&gt;Demonstration code avaliable at Google Code: https://code.google.com/p/lambda-leds/source/browse/&lt;/p&gt;
+
+&lt;p&gt;To compile (if using a pc, projects 4 &amp;amp; 5 will run, you do however need the pi4j libraries installed):&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To run:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make run
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To run every 2 minutes:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;make runSchedule
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Other usefull long term resources:&lt;/p&gt;
+
+&lt;p&gt;Also a good resourse: (http://www.adafruit.com/blog/2014/03/28/how-to-install-oracle-jdk-8-on-raspberry-pi-piday-raspberrypi-raspberry_pi/)&lt;/p&gt;</content><author><name></name></author><summary type="html">Why settle for embedded programming when the Raspberry Pi brings the full power of JavaSE into the embedded world.</summary></entry><entry><title type="html">An Array Without Bounds</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2013/07/02/an-array-without-bounds.html" rel="alternate" type="text/html" title="An Array Without Bounds" /><published>2013-07-02T18:37:56+10:00</published><updated>2013-07-02T18:37:56+10:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2013/07/02/an-array-without-bounds</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2013/07/02/an-array-without-bounds.html">&lt;p&gt;I just wanted to write a short piece about a horrifying little trick in java I learnt from trawling through the back catalogue of Dr. Heinz K’s newsletter. I highly recommend skimming the article list for interesting titles at a minimum.&lt;/p&gt;
+
+&lt;p&gt;Anyhow, in article 162… (you need to scroll down to near the end where he’s telling us what not to do :p) he mentions a technique of looping through an array without bounds checking the loop. Instead the exception mechanism is hijacked and used to exit the loop when the inevitable ArrayOutOfBounds exception is raised by simply executing a break to exit the infinite loop.&lt;/p&gt;
+
+&lt;p&gt;He implies in the article that in early versions of java this was faster than the standard for loop idiom, but that this is not true for modern JVMs. The article is a few years old now but at least preliminary testing on my pc seems to indicate that the exception-hijacking-idiom is once again faster… at least on 64bit Linux. Anyhow, the technique is not advised for every day use but is an interesting tool to have in the box.&lt;/p&gt;
+
+&lt;p&gt;Image: http://upload.wikimedia.org/wikipedia/commons/7/77/Bale_hooks_and_baling_twine.jpg&lt;/p&gt;</content><author><name></name></author><summary type="html">I just wanted to write a short piece about a horrifying little trick in java I learnt from trawling through the back catalogue of Dr. Heinz K’s newsletter. I highly recommend skimming the article list for interesting titles at a minimum.</summary></entry><entry><title type="html">Git yourself a schooling (in Git)</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2012/12/04/git-school.html" rel="alternate" type="text/html" title="Git yourself a schooling (in Git)" /><published>2012-12-04T19:37:56+11:00</published><updated>2012-12-04T19:37:56+11:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2012/12/04/git-school</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2012/12/04/git-school.html">&lt;p&gt;CodeSchool:
+I’ve recently gone through a couple of courses from CodeSchool and have found them to be quite entertaining, unfortunatly they most courses are keyed towards web developers, but there were two courses on git that were totally worth wile for any developers. My badges: http://www.codeschool.com/users/PuZZleDucK&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Try Git” was breathtaking,  may I just start with a “wow” actually, make that a “oh, wow… are you for real”. Fantastic use of technology here, the course is actually performed on a real live GitHub repo (https://github.com/PuZZleDucK/try_git).  The only drawbacks were that it ended too soon as it is a low level introductory course, and it felt a bit scripted, but once again it is an intro course. My repo has now expanded to incorporate experiments from the next class and may even become a program in it’s own right.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Git Real” has a wonderfully cheesy intro to the videos, it is very thorough and if used right really forces you to learn the commands yourself. You view a 10ish minute video discussing git techniques, then you go through challenges. I must confess I did use “man git” on my local machine a couple of times to check the details of obscure commands, but I figure anywhere I can use “git” I can use “man git” too. The (very minor) drawbacks include not being able to use tab-completion and a couple of times I just wanted to get my bearings with commands like “git status” or “git branch”, but I knew that if I typed in those commands the “marking system” would punish my self directed learning with a really good hint :D&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Also there is a “freebie offer” at the moment called “Hall Pass” (which you will need if you want to do the “git Real” course) with free two day access:&lt;/p&gt;
+
+&lt;p&gt;Hall Pass: http://go.codeschool.com/LkD3Kg&lt;/p&gt;
+
+&lt;p&gt;Linux Users Victoria (December 04):&lt;/p&gt;
+
+&lt;p&gt;This month at Luv we had Martin Paulo speaking on Open stack who also happened to recommended The Innovators Dilemma (http://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma) as a good read… Sounds interesting, about how innovative companies get fixated on their innovation and fall behind in “everything else”. Unfortunately he also pushed one of my buttons claiming that the object storage engine can store objects of size zero (Btrfs also makes this outrageous and misleading claim), meta data has a cost dammit! Zero plus meta data equals cheating… Zero plus meta data is not zero.&lt;/p&gt;
+
+&lt;p&gt;We also heared from Chris Samuel from VLSCI talking about the Blue gene/Q (http://en.wikipedia.org/wiki/Blue_Gene#Blue_Gene.2FQ) super computer in Melbourne called Avoca, including how it was the most powerful in the southern hemisphere… until a month ago. but I believe it is still is the worlds greenest super computer (http://themelbourneengineer.eng.unimelb.edu.au/2012/02/worlds-greenest-computer-comes-to-melbourne/).&lt;/p&gt;</content><author><name></name></author><summary type="html">CodeSchool: I’ve recently gone through a couple of courses from CodeSchool and have found them to be quite entertaining, unfortunatly they most courses are keyed towards web developers, but there were two courses on git that were totally worth wile for any developers. My badges: http://www.codeschool.com/users/PuZZleDucK</summary></entry><entry><title type="html">A Device to Give Gosling Nightmares</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2012/11/26/gosling-nightmares.html" rel="alternate" type="text/html" title="A Device to Give Gosling Nightmares" /><published>2012-11-26T19:37:56+11:00</published><updated>2012-11-26T19:37:56+11:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2012/11/26/gosling-nightmares</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2012/11/26/gosling-nightmares.html">&lt;p&gt;Making up for the long delay between my last two posts, here’s another one mere hours after the last, and this time with code!
+:D So, I’ve been reading about Duff’s device (http://www.lysator.liu.se/c/duffs-device.html and http://stackoverflow.com/questions/514118/how-does-duffs-device-work#514289) and loop unrolling (http://en.wikipedia.org/wiki/Loop_unwinding), and wanted to have a crack at it in Java… well of course there is absolutely no point implementing this in Java, and the results are just as I expected… the JVM can optimize a normal loop better than it can an unrolled loop :p … I’ve even heard that every time a developer unwinds a loop in Java, James Gosling gets a headache… sorry James.&lt;/p&gt;
+
+&lt;p&gt;Still it was a good interesting exercise… I challenge you all to implement an unrolled loop in your language of choice! I’d love to see a lisp version, actually on second thoughts…&lt;/p&gt;
+
+&lt;p&gt;Anyhow, here it is:&lt;/p&gt;
+
+&lt;p&gt;//(c)me &amp;amp; GPL3:
+public class DuffsDevice
+{
+  public static void main(String[] args)
+  {
+    int demoSize = 80;//woot… 0 works
+    System.out.println(“Normal loop: “  );
+    long start = System.nanoTime();
+    for(int i = 0; i &amp;lt; demoSize; i++)// one partial two full for demo
+    {
+      System.out.print(“ Bit:” + i);
+    }//normal loop
+    System.out.println(“\nNormal  end: “ + (System.nanoTime()-start));&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;final int winding = 5;//up to 6
+System.out.println(&quot;Duffs device in Java loop: &quot;);
+start = System.nanoTime();
+for(int i = 0; i &amp;lt; demoSize; i = i)// one partial two full for demo
+{
+  System.out.print(&quot;\n&quot; );//System.out.println(&quot;size%winding:&quot; + demoSize%winding + &quot;  i:&quot; + i  );
+  switch( (i + winding &amp;lt;= demoSize) ? 0 : winding-(demoSize%winding) )
+  {
+    //case (winding-6): { System.out.print(&quot; Bit:&quot; + (i) +&quot; -a&quot; ); i++; }
+    case (winding-5): { System.out.print(&quot; Bit:&quot; + (i) +&quot; -b&quot; ); i++; }
+    case (winding-4): { System.out.print(&quot; Bit:&quot; + (i) +&quot; -c&quot; ); i++; }
+    case (winding-3): { System.out.print(&quot; Bit:&quot; + (i) +&quot; -d&quot; ); i++; }
+    case (winding-2): { System.out.print(&quot; Bit:&quot; + (i) +&quot; -e&quot; ); i++; }
+    case (winding-1): { System.out.print(&quot; Bit:&quot; + (i) +&quot; -f&quot; ); i++; }
+  }//switch
+}//Duffs device
+System.out.println(&quot;\nDuffs device in Java  end: &quot; + (System.nanoTime()-start));
+//usually arround 1803034 in the normal loop
+//usually arround 2272790(winding 3) 2065498(winding 6) for unrolled loop... ymmv of course.
+//Duff was right... this is even pretty ugly in Java :p ... ugly, but fun :D   }//main }//class
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hope you enjoyed reading, I especially liked the embedded conditional statement as the switch control statement… writing that bit really got my heart racing haha&lt;/p&gt;
+
+&lt;p&gt;I got (sort of … not realy) Slashdoted!
+  Again it’s been a while, but this time I was just sick… still that didn’t stop lot of things happening.
+   First of let’s address the title of this post: I got Slashdoted, well sort of… 11 hits is a lot for a 30 minute video of a guy using Gimp (badly) for simple editing, haha (https://www.youtube.com/watch?v=gBrMR9HrF5w&amp;amp;list=UU0Px8r1nMNPVHn4sFYnMkfg&amp;amp;index=3&amp;amp;feature=plcp). I entered the Slashdot 15th anniversary logo competition and came first! was picked for the first day of the month (http://slashdot.org/logo15.pl), haha… anyhow my logo was a little endian joke (dot slash) with an insensitive clod reference thrown in for good measure. I love the “insensitive clod” poll options, I so often pick them.&lt;/p&gt;
+
+&lt;p&gt;I also wrote an email to MrDr Heinz Max Kabutz (of Java Specialists newsletter)… detailing what I thought was an interesting difference between Androids handling of the compilation routine and the way Java does it (http://www.javaspecialists.eu/archive/Issue050.html). I was partially so interested in the topic as I was under the impression little to no pre-compilation was performed on java code, so to learn about any java pre-compilation was interesting but to then realize that Android and Java both use different pre-compilation routines was somewhat more interesting. Hans got back to me, but unfortunately didn’t know about the Android compiler. This has left me with a lingering desire to learn more about precompilation in java so lookout for coverage of that in the future.&lt;/p&gt;
+
+&lt;p&gt;Dr Kabutzs example:&lt;/p&gt;
+
+&lt;p&gt;public class A1 {
+  Character aChar = new Character(‘\u000d’);
+}&lt;/p&gt;
+
+&lt;p&gt;In addition I also received a charming but somewhat disturbing email from a Mr. Shaun P. who was concerned that because I had licensed code used in a tutorial as GPL anyone following that tutorial would be forced to licence anything they wrote using that technique as GPL. Besides the viral nature of the GPL being half the point of the whole licence, I would have thought someone’s use of my code would have to be substantial and direct for me to claim it as a derivative work… simply using the same technique or a small chunk would simply not suffice. Remember, Linus does not even consider Bionic to be a derivative work. I also began creating solutions to the Project Euler problems in the form of Android applications. Checkout Euler 1 and Euler 2 on the Play Store now. Euler 3 is in the works, but it’s a step learning curve between problems two and three.&lt;/p&gt;
+
+&lt;p&gt;While recovering from illness and in a state of total delirium I created a funny little video in tribute to Melencolia 1 (http://www.youtube.com/watch?v=0gtAJL4bKGk&amp;amp;lc=mwStJrKCNr1Wua-Vn2-V8zayxcrRakbh3lNOBtGXRlw&amp;amp;lch=email&amp;amp;feature=em-comment_received) which was introduced to me by … from the Numberfile videos (http://www.youtube.com/watch?v=gGvyeuDT2Do&amp;amp;feature=related), absolutely worth checking out if you haven’t yet.&lt;/p&gt;
+
+&lt;p&gt;and finally: What the hell is up with those BSD guys? (http://old.nabble.com/Real-men-don%27t-attack-straw-men-tt14256924r0.html) I just can’t fathom how patient and polite Richard Stallman is… the background to this is that bsd got removed from the fsf list of endorsed projects and Stallman vaguely implied that they promote proprietary software. Well, the bsd guys were tearing into Stallman in this forum demanding an apology or something. Anyhow I think Stallman comes of looking professional and (overly) polite, what do you all think out there?&lt;/p&gt;</content><author><name></name></author><summary type="html">Making up for the long delay between my last two posts, here’s another one mere hours after the last, and this time with code! :D So, I’ve been reading about Duff’s device (http://www.lysator.liu.se/c/duffs-device.html and http://stackoverflow.com/questions/514118/how-does-duffs-device-work#514289) and loop unrolling (http://en.wikipedia.org/wiki/Loop_unwinding), and wanted to have a crack at it in Java… well of course there is absolutely no point implementing this in Java, and the results are just as I expected… the JVM can optimize a normal loop better than it can an unrolled loop :p … I’ve even heard that every time a developer unwinds a loop in Java, James Gosling gets a headache… sorry James.</summary></entry><entry><title type="html">BASH Obsfucation Contest Entry</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2012/09/15/bash-obsfucation-contest.html" rel="alternate" type="text/html" title="BASH Obsfucation Contest Entry" /><published>2012-09-15T18:37:56+10:00</published><updated>2012-09-15T18:37:56+10:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2012/09/15/bash-obsfucation-contest</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2012/09/15/bash-obsfucation-contest.html">&lt;p&gt;Ok, here it is at last, my XDA Developers “BASH Obsfucation Contest” entry, gee I hope Blogger doesn’t chew up my formatting or escape chars… oh well here goes nothing… and let me know in the comments if you work it out :D&lt;/p&gt;
+
+&lt;p&gt;Here is the link to the XDA thread.
+http://forum.xda-developers.com/showthread.php?p=31053651#post31053651&lt;/p&gt;
+
+&lt;p&gt;And another to the YouTube video.
+http://www.youtube.com/watch?feature=player_detailpage&amp;amp;v=y-XSjjgQV80#t=151s&lt;/p&gt;
+
+&lt;p&gt;Checkout the script file here: http://dl.dropbox.com/u/3380589/bash%20scripts/santa.sh (the blog format exposes some of my Obsfucation… and also seems to chew up the odd character… doh, too tired to fix now).&lt;/p&gt;
+
+&lt;p&gt;Spoiler alert… I tell you what it does at the end… now on with the code:&lt;/p&gt;
+
+&lt;p&gt;#! /bin/bash&lt;/p&gt;
+
+&lt;p&gt;#Init Yeuletide(sp?)
+euletideness=0;                                                                                                                                                                                                                                                                                              xt=”is”;
+merrynessindex=0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            lw4e=”l”;&lt;/p&gt;
+
+&lt;p&gt;#Init xMian vocab
+santa=”“;elf=”“;partrige=”“;snowman=”“;jingles=”“;pinetrees=””;
+mrsclause=”“;elfette=”“;nannatriges=”“;noman=”“;bells=”“;tinsel=””;&lt;/p&gt;
+
+&lt;p&gt;#init xMas graphics
+#Bauble:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         serr4=”S”; # nothing to see here… move it along now
+                            xt643=”kes”;
+                          d=”n”;      n=”d”;
+                       vgt=” ma”;      vgr=”k”;
+                   serr1=”nt”;          serr7=”a “;
+                 vgw=”es “;                 serr8=”a”;
+                lw9=”h”;         lw3=”ppy”;  lp23=” ..”;
+               lp223=”.so”; vgt234=” fe”;lp2333=”w n”;
+               lp243=”ice”;  lp23=”ren”;  lp2113=” me”;
+                mvfd=”N”;ice=”ice”; i=”/”; lwe3=”aug”;
+                 lw3e=”hty”;xa=”th$xt”;j=”pr”;m=”oc”;
+                   vg=”$vgt$vgr$vgw”;ul=”ev”;p=”mm”;
+                     ds=”$serr4$serr8$serr1$serr7”;
+                        serr99=”i$lw4ed”;o=”co”;
+                          lw=”$lw9$serr8$lw3”;&lt;/p&gt;
+
+&lt;p&gt;#Tree:
+#######################################################################
+#                                                                     #&lt;/p&gt;
+&lt;h1&gt;*&lt;/h1&gt;
+&lt;h1 id=&quot;-1&quot;&gt;|&lt;/h1&gt;
+&lt;h1 id=&quot;vg&quot;&gt;vg”;&lt;/h1&gt;
+&lt;h1 id=&quot;vgt9&quot;&gt;vgt9”;&lt;/h1&gt;
+&lt;h1 id=&quot;v8lw9&quot;&gt;v8=”lw9”;&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                     vgt58=&quot; c$lw9&quot;;                              # #                         3=&quot;$vgt&quot;3r7&quot;;                               # #                       iy223=&quot;$lw33=r7&quot;;                             # #                     lp2223=&quot;$gt&quot;;lw=&quot; r7&quot;;                          #
+               lp2223=&quot;$vgt&quot;;lw33=&quot; $serr7&quot;;                      # #                     313serr4ad&quot;gt41=&quot; rra&quot;;                         # #                   lp2 3$serr4aj&quot; vgt1=&quot;sr4a&quot;;                       # #                lp13=&quot;$serr4ad&quot;; vgt4321=&quot;err4a&quot;;                    # #               2313=&quot;$serr4ad&quot;; vgt4321=&quot; $serr4a&quot;;                  #
+           lp2313=&quot;$serr4ad&quot;; vgt4321=&quot; $serr4a&quot;;                 # #                 p2323=&quot;$serr1;lp221;n2=&quot;$mvfdce&quot;;                   # #               lp232$serr1a&quot;;l2213=&quot;.&quot;;n2=mvfd$ic&quot;;                  # #             lp2323=&quot;$serr1ajh;221jhg&quot;.&quot;j;n2fg=&quot;fd$ie&quot;               #
+         lp2323=&quot;$serr1a&quot;;lp2213=&quot;.&quot;;n2=&quot;$mvfd$ice&quot;;              # #             n1=&quot;$mwe3w3;l=err8&quot;;hg=&quot;t $i&quot;;e=&quot;$l$m$i&quot;;               # #           n1=&quot;$mvfwe3$lw3e&quot;;l=l&quot;serr8&quot;;k=&quot; $&quot;e=&quot;$j$m$i&quot;;            # #          n1=&quot;$mvd$lw3$lw3e&quot;;l=&quot;c$ser&quot;;k=&quot;t $h&quot;;e=$l$$j$i&quot;;          # #        n1=&quot;$mvfd$lwe3$lw3e&quot;;l=&quot;c$serr8&quot;;k=&quot;t $i&quot;;e=&quot;l$k$j$i&quot;;       #
+    n1=&quot;$mvfd$lwe3$lw3e&quot;;l=&quot;c$serr8&quot;;k=&quot;t $i&quot;;e=&quot;$l$k$j$m$i&quot;;     # #          a=&quot;$i$o$p&quot;;ev=&quot;ul$e&quot;;dmc=&quot;$i$n$ul$d$ev&quot;;vdyy$lw4e&quot;;        # #        a=&quot;$i$o$p&quot;;ev=&quot;ul$l4e&quot;dmc=&quot;$i$n$ui$d$ev&quot;;vyy=&quot;taiw4e&quot;;       # #      a=&quot;$i$o$p&quot;;ev=ul$lw4e&quot;;dmc=&quot;$i$n$ul$i$dev&quot;;vdyy=&quot;ai$lwe&quot;;      #
+  a=&quot;$i$o$p&quot;;ev=&quot;ul$lw4e&quot;;dmc=&quot;$i$n$ul$i$d$ev&quot;;vdyy=&quot;tai$lw4e&quot;;   # #                         e&quot;;dmc=&quot;$i$n$ul$                            # #                         lp232$serrmvlw3e                            # #                         p2323dmc=&quot;$i$$ul                            # #                         er&quot;;krr1ajh22hgh                            #                                       # #                         ep2323c=&quot;$i$n$ul                            #
+                                                                  # #######################################################################
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;#calculate xMas factorial
+for f in &lt;code class=&quot;highlighter-rouge&quot;&gt;ls /proc&lt;/code&gt;; do
+   cd=”$e$f$a”
+   name=&lt;code class=&quot;highlighter-rouge&quot;&gt;$cd 2&amp;gt;$dmc&lt;/code&gt;;
+   ps=&lt;code class=&quot;highlighter-rouge&quot;&gt;ps  -p $f | tail -1&lt;/code&gt;;
+   thisnice=&lt;code class=&quot;highlighter-rouge&quot;&gt;ps  -p $f | $vdyy -1 | awk '{ print $7; }'&lt;/code&gt;;&lt;/p&gt;
+
+&lt;p&gt;if [ “$thisnice” -eq “$thisnice” ] 2&amp;gt;/dev/null; then
+    if [ “$thisnice” == “20” ]
+      then
+    if [ “$euletideness” -lt “6” ]
+         then
+          naughtylist[$euletideness]=$name&lt;/p&gt;
+&lt;h1 id=&quot;echo-naughty--name&quot;&gt;echo “naughty:  $name”;&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;fi
+euletideness=$(($euletideness + 1));
+elif [ &quot;$thisnice&quot; == &quot;-20&quot; ]
+  then
+if [ &quot;$merrynessindex&quot; -lt &quot;6&quot; ]
+     then
+  nicelist[$merrynessindex]=$name #      echo &quot;nice:  $name&quot;;
+fi
+merrynessindex=$(($merrynessindex + 1));
+fi   fi done
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;export-santa-data&quot;&gt;Export Santa data&lt;/h1&gt;
+&lt;p&gt;santa=”${nicelist[0]}”
+elf=”${nicelist[1]}”
+partrige=”${nicelist[2]}”
+snowman=”${nicelist[3]}”
+jingles=”${nicelist[4]}”
+pinetrees=”${nicelist[5]}”
+mrsclause=”${naughtylist[0]}”
+elfette=”${naughtylist[1]}”
+nannatriges=”${naughtylist[2]}”
+noman=”${naughtylist[3]}”
+bells=”${naughtylist[4]}”
+tinsel=”${naughtylist[5]}”&lt;/p&gt;
+
+&lt;h1 id=&quot;calculate-santas-tax&quot;&gt;Calculate Santas Tax&lt;/h1&gt;
+&lt;p&gt;if [ $(($merrynessindex-6)) -lt “0” ]
+    then
+      merrynessindex=6
+fi&lt;/p&gt;
+
+&lt;p&gt;if [ $(($euletideness-6)) -lt “0” ]
+    then
+      euletideness=6
+fi&lt;/p&gt;
+
+&lt;h1 id=&quot;export-quarterly-report&quot;&gt;Export quarterly report&lt;/h1&gt;
+&lt;p&gt;echo “ &lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;em&gt;”
+echo “/\                     \                  \”
+echo “\&lt;/em&gt;|  $n1           |  $n2             |”
+echo “  |——————–|——————-|”
+echo “  |  1 $mrsclause                | 1 $santa                “
+echo “  |  2 $elfette                | 2 $elf                “
+echo “  |  3 $nannatriges                | 3 $partrige                “
+echo “  |  4 $noman                | 4 $snowman                “
+echo “  |  5 $bells                | 5 $jingles                “
+echo “  |  6 $tinsel                | 6 $pinetrees                “
+echo “  |    … and $(($euletideness-6)) more  |  … and $(($merrynessindex-6)) more  |”
+echo “  |  $n1 $vgt58$serr99$lp23   |     $n2 $vgt58$serr99$lp23  |”
+echo “  |   __&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;em&gt;|&lt;/em&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;|”
+echo “   \&lt;em&gt;/&lt;/em&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;_____/”&lt;/p&gt;
+
+&lt;h1 id=&quot;export-execuitive-summary&quot;&gt;Export execuitive summary&lt;/h1&gt;
+&lt;p&gt;if [ “$euletideness” -lt “7” ]
+    then
+      echo “        … $xa$vg$ds$lw.”
+fi
+if [ “$merrynessindex” -lt “7” ]
+    then
+      echo “$lp23$lp223$vgt234$lp2333$lp243$vgt58$serr99$lp23$lp2223$xt643$lp2113$lw33$lp2313$vgt4321$lp2323$lp2213”
+fi&lt;/p&gt;
+
+&lt;p&gt;Spoiler alert…&lt;/p&gt;
+
+&lt;p&gt;Spoiler alert..&lt;/p&gt;
+
+&lt;p&gt;Spoiler alert.&lt;/p&gt;
+
+&lt;p&gt;Spoiler:
+   It scans the directories in /proc/### and gets the nice values… building a list of naughty and nice applications, but disguised as a North Pole Accounting Unit so naughty children don’t steal it :D&lt;/p&gt;
+
+&lt;p&gt;Screenshot:&lt;/p&gt;
+
+&lt;p&gt;http://2.bp.blogspot.com/-rKE0-EPxG3A/UFRWaOii-jI/AAAAAAAA7N8/xuyKPXomJAc/s320/Screenshot_2012-09-15-20-19-26.png&lt;/p&gt;</content><author><name></name></author><summary type="html">Ok, here it is at last, my XDA Developers “BASH Obsfucation Contest” entry, gee I hope Blogger doesn’t chew up my formatting or escape chars… oh well here goes nothing… and let me know in the comments if you work it out :D</summary></entry><entry><title type="html">Data Retention and a Plea to Wikipedia</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2012/09/08/data-retention-and-wikipedia.html" rel="alternate" type="text/html" title="Data Retention and a Plea to Wikipedia" /><published>2012-09-08T18:37:56+10:00</published><updated>2012-09-08T18:37:56+10:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2012/09/08/data-retention-and-wikipedia</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2012/09/08/data-retention-and-wikipedia.html">&lt;p&gt;Hi all, this post is not so much about development but it’s all about attention and I get more traffic here than on any other blog, and it’s related to the internet as a whole… So I’ve been mopping about the new Australian mandatory data retention plot&lt;ahem&gt;scheme&lt;chough&gt;plan... whatever, for a while now and it looks like we're going to get it... At least they did hear from some community representatives (I'll report back on how it went when I find out), but they will probably be ignored.&lt;/chough&gt;&lt;/ahem&gt;&lt;/p&gt;
+
+&lt;p&gt;I recently found out that lolcats help boring stories move along, so:&lt;/p&gt;
+
+&lt;p&gt;lolcat
+http://3.bp.blogspot.com/-WfhGVsLNzyc/UEvXwPeXkMI/AAAAAAAA7Ns/B5AVGDT-F7E/s400/photo_997875784_cbec7157a9_t.jpg&lt;/p&gt;
+
+&lt;p&gt;At least now everyone is getting in on the action… first off the bat is the UK, who sparked quite a bit of public discourse with Jimmy Wales labeling it a “snooper’s charter”… and like everything in Australia ours is a little more venomous (http://en.wikipedia.org/wiki/Redback_spider).&lt;/p&gt;
+
+&lt;p&gt;Thanks to the conversation sparked on Slashdot user rmgoat let us know that the Canadians are up to the same sort of shenanigans. Now I’m sorry to use words like shenanigans on the internet but I’m too angry for polite words. Anyhow this sham is already being renamed from the Lawful Access Act’ to the C-30 Protecting Children from Internet Predators Act. I’m sure they’ll throw in some thing about For The Love Of You-Know-Who by the time they’re done.&lt;/p&gt;
+
+&lt;p&gt;For those in the UK there is at least an online petition, no good for me but it deserves the publicity…..LINK: http://www.avaaz.org/en/stop_the_big_brother_law_2/?wVfGFcb&lt;/p&gt;
+
+&lt;p&gt;Is there some such thing for Aus? Anyone?&lt;/p&gt;
+
+&lt;p&gt;I love Wales response (below) and plea for him to do the same for Australia… I’ll double my donation this year :D promise … I would write to my local minister instead of Jimmy, but I know there is actually a chance that Jimmy might listen to the public, whereas I doubt there it an MP in Oz who will do a thing about this (except maybe the Greens… go you good thing).&lt;/p&gt;
+
+&lt;p&gt;“If we find that UK ISPs are mandated to keep track of every single web page that you read at Wikipedia, I am almost certain we would immediately move to a default of encrypting all communication to the UK, so that the local ISP would only be able to see that you are speaking to Wikipedia, not what you are reading.&lt;/p&gt;
+
+&lt;p&gt;“That kind of response for us to do is not difficult. We don’t do it today because there doesn’t seem to be a dramatic need […] it’s something that I think we would do, absolutely.”&lt;/p&gt;
+
+&lt;p&gt;“technologically incompetent”
+     -Jimmy Wales&lt;/p&gt;
+
+&lt;p&gt;“Bluntly these are as dangerous as we expected, and represent unprecedented surveillance powers in the democratic world.”
+     -Jim Killock, of Open Rights Group c.o. Wired&lt;/p&gt;
+
+&lt;p&gt;Now finally lets close with an example of what some really smart people can do with “trivial data”: Estimating the atom @ 60 Symbols&lt;/p&gt;
+
+&lt;p&gt;REFS:
+-comment from ars - Ranting.Me : http://arstechnica.com/tech-policy/2012/09/jimmy-wales-threatens-to-encrypt-wikipedia-if-uk-passes-snooping-bill/?comments=1&amp;amp;post=23244652#comment-23244652&lt;/p&gt;
+
+&lt;p&gt;-and pan.sapiens responds: …but two years instead of one, plus a load of other intrusive stuff. Yet few people who I talk to in Oz seem to have even heard about it, and those that have heard of it have no understanding of how intrusive the proposed laws are. Mr. Wales, can you please please encrypt our traffic too? If nothing else we could really benefit from a bit of publicity about these laws from a high-profile site like Wikipedia to help get us laid-back Aussies off our arses and into the streets.&lt;/p&gt;
+
+&lt;p&gt;ars article: http://arstechnica.com/tech-policy/2012/09/jimmy-wales-threatens-to-encrypt-wikipedia-if-uk-passes-snooping-bill/&lt;/p&gt;
+
+&lt;p&gt;huffington: http://www.huffingtonpost.co.uk/2012/09/06/jimmy-wales-wikipedia-snoopers-charter_n_1860293.html&lt;/p&gt;
+
+&lt;p&gt;wired: http://www.wired.co.uk/news/archive/2012-06/14/communications-bill&lt;/p&gt;
+
+&lt;p&gt;guardian: http://www.guardian.co.uk/technology/2012/sep/05/wikipedia-jimmy-wales-snoopers-charter
+-The Guardian had the most charming commentators I’ve seen on the web. Kudos to the moderators I’m sure ;)&lt;/p&gt;
+
+&lt;p&gt;-Image kudos: http://nopsa.hiit.fi/pmg/viewer/photo.php?id=1387109&lt;/p&gt;</content><author><name></name></author><summary type="html">Hi all, this post is not so much about development but it’s all about attention and I get more traffic here than on any other blog, and it’s related to the internet as a whole… So I’ve been mopping about the new Australian mandatory data retention plotschemeplan... whatever, for a while now and it looks like we're going to get it... At least they did hear from some community representatives (I'll report back on how it went when I find out), but they will probably be ignored.</summary></entry><entry><title type="html">Embedding Page Data in a Link</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2012/09/05/embedding-data-in-links.html" rel="alternate" type="text/html" title="Embedding Page Data in a Link" /><published>2012-09-05T18:37:56+10:00</published><updated>2012-09-05T18:37:56+10:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2012/09/05/embedding-data-in-links</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2012/09/05/embedding-data-in-links.html">&lt;p&gt;Just read an interesting article about embedding page data right into the link and some kind fellow on Slashdot created an example … just wondering if I can host the «same link here on Blogger». For some odd reason or another the link does not show up in the normal way so i have surrounded it with guillemets… and I’m running FireFox on Linux: it won’t work on me so I need your feedback… Does it work for you?&lt;/p&gt;
+
+&lt;p&gt;–edit to highlight link&lt;/p&gt;
+
+&lt;p&gt;data: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QXVndXN0IiwiU2VwdGVtYmVyIiwiT2N0b2JlciIsIk5vdmVtYmVyIiwiRGVjZW1iZXIiXSwid2dNb250aE5hbWVzU2hvcnQiOlsiIiwiSmFuIiwiRmViIiwiTWFyIiwiQXByIiwiTWF5IiwiSnVuIiwiSnVsIiwiQXVnIiwiU2VwIiwiT2N0IiwiTm92IiwiRGVjIl0sIndnUmVsZXZhbnRQYWdlTmFtZSI6IlNwZWNpYWw6VXNlckxvZ2luIiwid2dTZWFyY2hOYW1lc3BhY2VzIjpbMF0sIndnVmVjdG9yRW5hYmxlZE1vZHVsZXMiOnsiY29sbGFwc2libGVuYXYiOnRydWUsImNvbGxhcHNpYmxldGFicyI6dHJ1ZSwiZWRpdHdhcm5pbmciOnRydWUsImV4cGFuZGFibGVzZWFyY2giOmZhbHNlLCJmb290ZXJjbGVhbnVwIjpmYWxzZSwic2VjdGlvbmVkaXRsaW5rcyI6ZmFsc2UsInNpbXBsZXNlYXJjaCI6dHJ1ZSwiZXhwZXJpbWVudHMiOnRydWV9LCJ3Z1dpa2lFZGl0b3JFbmFibGVkTW9kdWxlcyI6eyJ0b29sYmFyIjp0cnVlLCJkaWFsb2dzIjp0cnVlLCJoaWRlc2lnIjp0cnVlLCJ0ZW1wbGF0ZUVkaXRvciI6ZmFsc2UsInRlbXBsYXRlcyI6ZmFsc2UsInByZXZpZXciOmZhbHNlLCJwcmV2aWV3RGlhbG9nIjpmYWxzZSwicHVibGlzaCI6ZmFsc2UsInRvYyI6ZmFsc2V9LCJ3Z1RyYWNraW5nVG9rZW4iOiJmMDhiMTgxOTYxMGNhZGZhMjY4Y2UwMmI3YjRhNGZlNyIsIndnQXJ0aWNsZUZlZWRiYWNrdjVQZXJtaXNzaW9ucyI6eyJvdmVyc2lnaHRlciI6ZmFsc2UsIm1vZGVyYXRvciI6ZmFsc2UsImVkaXRvciI6ZmFsc2V9LCJ3aWtpbG92ZS1yZWNpcGllbnQiOiIiLCJ3aWtpbG92ZS1hbm9uIjowLCJtYkVtYWlsRW5hYmxlZCI6dHJ1ZSwibWJVc2VyRW1haWwiOmZhbHNlLCJtYklzRW1haWxDb25maXJtYXRpb25QZW5kaW5nIjpmYWxzZSwid2dGbGFnZ2VkUmV2c1BhcmFtcyI6eyJ0YWdzIjp7InN0YXR1cyI6eyJsZXZlbHMiOjEsInF1YWxpdHkiOjIsInByaXN0aW5lIjozfX19LCJ3Z1N0YWJsZVJldmlzaW9uSWQiOm51bGwsIndnQ2F0ZWdvcnlUcmVlUGFnZUNhdGVnb3J5T3B0aW9ucyI6IntcIm1vZGVcIjowLFwiaGlkZXByZWZpeFwiOjIwLFwic2hvd2NvdW50XCI6dHJ1ZSxcIm5hbWVzcGFjZXNcIjpmYWxzZX0iLCJHZW8iOnsiY2l0eSI6IiIsImNvdW50cnkiOiIifSwid2dOb3RpY2VQcm9qZWN0Ijoid2lraXBlZGlhIn0pOw0KfTwvc2NyaXB0PjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij5pZih3aW5kb3cubXcpew0KbXcubG9hZGVyLmltcGxlbWVudCgidXNlci5vcHRpb25zIixmdW5jdGlvbigpe213LnVzZXIub3B0aW9ucy5zZXQoeyJjY21lb25lbWFpbHMiOjAsImNvbHMiOjgwLCJkYXRlIjoiZGVmYXVsdCIsImRpZmZvbmx5IjowLCJkaXNhYmxlbWFpbCI6MCwiZGlzYWJsZXN1Z2dlc3QiOjAsImVkaXRmb250IjoiZGVmYXVsdCIsImVkaXRvbmRibGNsaWNrIjowLCJlZGl0c2VjdGlvbiI6MSwiZWRpdHNlY3Rpb25vbnJpZ2h0Y2xpY2siOjAsImVub3RpZm1pbm9yZWRpdHMiOjAsImVub3RpZnJldmVhbGFkZHIiOjAsImVub3RpZnVzZXJ0YWxrcGFnZXMiOjEsImVub3RpZndhdGNobGlzdHBhZ2VzIjowLCJleHRlbmR3YXRjaGxpc3QiOjAsImV4dGVybmFsZGlmZiI6MCwiZXh0ZXJuYWxlZGl0b3IiOjAsImZhbmN5c2lnIjowLCJmb3JjZWVkaXRzdW1tYXJ5IjowLCJnZW5kZXIiOiJ1bmtub3duIiwiaGlkZW1pbm9yIjowLCJoaWRlcGF0cm9sbGVkIjowLCJpbWFnZXNpemUiOjIsImp1c3RpZnkiOjAsIm1hdGgiOjAsIm1pbm9yZGVmYXVsdCI6MCwibmV3cGFnZXNoaWRlcGF0cm9sbGVkIjowLCJub2NhY2hlIjowLCJub2NvbnZlcnRsaW5rIjowLCJub3JvbGxiYWNrZGlmZiI6MCwibnVtYmVyaGVhZGluZ3MiOjAsInByZXZpZXdvbmZpcnN0IjowLCJwcmV2aWV3b250b3AiOjEsInF1aWNrYmFyIjo1LCJyY2RheXMiOjcsInJjbGltaXQiOjUwLCJyZW1lbWJlcnBhc3N3b3JkIjowLCJyb3dzIjoyNSwic2VhcmNobGltaXQiOjIwLCJzaG93aGlkZGVuY2F0cyI6ZmFsc2UsInNob3dqdW1wbGlua3MiOjEsInNob3dudW1iZXJzd2F0Y2hpbmciOjEsInNob3d0b2MiOjEsInNob3d0b29sYmFyIjoxLCJza2luIjoidmVjdG9yIiwic3R1YnRocmVzaG9sZCI6MCwidGh1bWJzaXplIjo0LCJ1bmRlcmxpbmUiOjIsInVzZWxpdmVwcmV2aWV3IjowLCJ1c2VuZXdyYyI6MCwid2F0Y2hjcmVhdGlvbnMiOjEsIndhdGNoZGVmYXVsdCI6MCwid2F0Y2hkZWxldGlvbiI6MCwid2F0Y2hsaXN0ZGF5cyI6Mw0KLCJ3YXRjaGxpc3RoaWRlYW5vbnMiOjAsIndhdGNobGlzdGhpZGVib3RzIjowLCJ3YXRjaGxpc3RoaWRlbGl1IjowLCJ3YXRjaGxpc3RoaWRlbWlub3IiOjAsIndhdGNobGlzdGhpZGVvd24iOjAsIndhdGNobGlzdGhpZGVwYXRyb2xsZWQiOjAsIndhdGNobW92ZXMiOjAsIndsbGltaXQiOjI1MCwiZmxhZ2dlZHJldnNzaW1wbGV1aSI6MSwiZmxhZ2dlZHJldnNzdGFibGUiOjAsImZsYWdnZWRyZXZzZWRpdGRpZmZzIjp0cnVlLCJmbGFnZ2VkcmV2c3ZpZXdkaWZmcyI6ZmFsc2UsInZlY3Rvci1zaW1wbGVzZWFyY2giOjEsInVzZWVkaXR3YXJuaW5nIjoxLCJ2ZWN0b3ItY29sbGFwc2libGVuYXYiOjEsInVzZWJldGF0b29sYmFyIjoxLCJ1c2ViZXRhdG9vbGJhci1jZ2QiOjEsIndpa2lsb3ZlLWVuYWJsZWQiOjEsInZhcmlhbnQiOiJlbiIsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hOczAiOnRydWUsInNlYXJjaE5zMSI6ZmFsc2UsInNlYXJjaE5zMiI6ZmFsc2UsInNlYXJjaE5zMyI6ZmFsc2UsInNlYXJjaE5zNCI6ZmFsc2UsInNlYXJjaE5zNSI6ZmFsc2UsInNlYXJjaE5zNiI6ZmFsc2UsInNlYXJjaE5zNyI6ZmFsc2UsInNlYXJjaE5zOCI6ZmFsc2UsInNlYXJjaE5zOSI6ZmFsc2UsInNlYXJjaE5zMTAiOmZhbHNlLCJzZWFyY2hOczExIjpmYWxzZSwic2VhcmNoTnMxMiI6ZmFsc2UsInNlYXJjaE5zMTMiOmZhbHNlLCJzZWFyY2hOczE0IjpmYWxzZSwic2VhcmNoTnMxNSI6ZmFsc2UsInNlYXJjaE5zMTAwIjpmYWxzZSwic2VhcmNoTnMxMDEiOmZhbHNlLCJzZWFyY2hOczEwOCI6ZmFsc2UsInNlYXJjaE5zMTA5IjpmYWxzZSwiZ2FkZ2V0LXRlYWhvdXNlIjoxLCJnYWRnZXQtUmVmZXJlbmNlVG9vbHRpcHMiOjEsImdhZGdldC1EUk4td2l6YXJkIjoxLCJnYWRnZXQtbXlTYW5kYm94IjoxfSk7O30se30se30pO213LmxvYWRlci5pbXBsZW1lbnQoInVzZXIudG9rZW5zIixmdW5jdGlvbigpe213LnVzZXIudG9rZW5zLnNldCh7ImVkaXRUb2tlbiI6IitcXCIsDQoid2F0Y2hUb2tlbiI6ZmFsc2V9KTs7fSx7fSx7fSk7DQoNCi8qIGNhY2hlIGtleTogZW53aWtpOnJlc291cmNlbG9hZGVyOmZpbHRlcjptaW5pZnktanM6Nzo4MWY3YzA1MDJlMzQ3ODIyZjE0YmU4MWY5NmZmMDNhYiAqLw0KfTwvc2NyaXB0Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPmlmKHdpbmRvdy5tdyl7DQptdy5sb2FkZXIubG9hZChbIm1lZGlhd2lraS5wYWdlLnN0YXJ0dXAiLCJtZWRpYXdpa2kubGVnYWN5Lndpa2liaXRzIiwibWVkaWF3aWtpLmxlZ2FjeS5hamF4IiwiZXh0Lndpa2ltZWRpYVNob3BMaW5rLmNvcmUiXSk7DQp9PC9zY3JpcHQDQo8IS0tW2lmIGx0IElFIDddPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyIYm9keXtiZWhhdmlvcjp1cmwoIi93L3NraW5zLTEuMjB3bWY5L3ZlY3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y9iaXRzLndpa2ltZWRpYS5vcmcvc3RhdGljLTEuMjB3bWY5L3NraW5zL2NvbW1vbi9pbWFnZXMvcG93ZXJlZGJ5X21lZGlhd2lraV84OHgzMS5wbmciIGFsdD0iUG93ZXJlZCBieSBNZWRpYVdpa2kiIHdpZHRoPSI4OCIgaGVpZ2h0PSIzMSIgLz48L2EDQoJCQkJCTwvbGkDQoJCQkJPC91bD4NCgkJCQkJCTxkaXYgc3R5bGU9ImNsZWFyOmJvdGgiPjwvZGl2Pg0KCQk8L2Rpdj4NCgkJPCEtLSAvZm9vdGVyIC0tPg0KCQk8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIaWYod2luZG93Lm13KXsNCm13LmxvYWRlci5zdGF0ZSh7InNpdGUiOiJsb2FkaW5nIiwidXNlciI6InJlYWR5IiwidXNlci5ncm91cHMiOiJyZWFkeSJ9KTsNCn08L3NjcmlwdD4NCjxzY3JpcHQgc3JjPSJodHRwOi8vYml0cy53aWtpbWVkaWEub3JnL2VuLndpa2lwZWRpYS5vcmcvbG9hZC5waHAZGVidWc9ZmFsc2UmYW1wO2xhbmc9ZW4mYW1wO21vZHVsZXM9c2tpbnMudmVjdG9yJmFtcDtvbmx5PXNjcmlwdHMmYW1wO3NraW49dmVjdG9yJmFtcDsqIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjwvc2NyaXB0Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPmlmKHdpbmRvdy5tdyl7DQptdy5sb2FkZXIubG9hZChbIm1lZGlhd2lraS51c2VyIiwibWVkaWF3aWtpLnBhZ2UucmVhZHkiLCJtZWRpYXdpa2kubGVnYWN5Lm13c3VnZ2VzdCIsImV4dC52ZWN0b3IuY29sbGFwc2libGVOYXYiLCJleHQudmVjdG9yLmNvbGxhcHNpYmxlVGFicyIsImV4dC52ZWN0b3IuZWRpdFdhcm5pbmciLCJleHQudmVjdG9yLnNpbXBsZVNlYXJjaCIsImV4dC5Vc2VyQnVja2V0cyIsImV4dC5hcnRpY2xlRmVlZGJhY2suc3RhcnR1cCIsImV4dC5tYXJrQXNIZWxwZnVsIiwiZXh0LkV4cGVyaW1lbnRzLmxpYiIsImV4dC5FeHBlcmltZW50cy5leHBlcmltZW50cyJdLCBudWxsLCB0cnVlKTsNCn08L3NjcmlwdD4NCjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCndpbmRvdy5fcmVnID0gIiI7DQo8L3NjcmlwdD4NCjxzY3JpcHQgc3JjPSJodHRwOi8vaHR0cDovL2VuLndpa2lwZWRpYS5vcmcvdy9pbmRleC5waHAdGl0bGU9U3BlY2lhbDpCYW5uZXJDb250cm9sbGVyJmFtcDtjYWNoZT0vY24uanMmYW1wOzMwMy00IiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjwvc2NyaXB0Pg0KPHNjcmlwdCBzcmM9Imh0dHA6Ly9iaXRzLndpa2ltZWRpYS5vcmcvZ2VvaXBsb29rdXAiIHR5cGU9InRleHQvamF2YXNjcmlwdCIPC9zY3JpcHQPCEtLSBTZXJ2ZWQgYnkgbXcxMSBpbiAwLjExNyBzZWNzLiAtLT4NCgk8L2JvZHkDQo8L2h0bWwDQo&lt;/p&gt;</content><author><name></name></author><summary type="html">Just read an interesting article about embedding page data right into the link and some kind fellow on Slashdot created an example … just wondering if I can host the «same link here on Blogger». For some odd reason or another the link does not show up in the normal way so i have surrounded it with guillemets… and I’m running FireFox on Linux: it won’t work on me so I need your feedback… Does it work for you?</summary></entry><entry><title type="html">Orbitals 2 ready for release, ADBassist conversion and OSIA</title><link href="https://puzzleduck.github.io/Development-Adventures/article/2012/08/19/orbitals-and-adb.html" rel="alternate" type="text/html" title="Orbitals 2 ready for release, ADBassist conversion and OSIA" /><published>2012-08-19T18:37:56+10:00</published><updated>2012-08-19T18:37:56+10:00</updated><id>https://puzzleduck.github.io/Development-Adventures/article/2012/08/19/orbitals-and-adb</id><content type="html" xml:base="https://puzzleduck.github.io/Development-Adventures/article/2012/08/19/orbitals-and-adb.html">&lt;p&gt;Just a little update on Orbital Live Wallpaper (source), after messing around with the internals (there was some shifty maths going on in the background) I’ve been able to separate out the transition away and the transition back to orbit. This allows the transitions to form some interesting patterns. I have also added a new transition (I was hoping for two, but just want to get the updates and fixes out) and a couple of color schemes. Hopefully I’ll be releasing this weekend.&lt;/p&gt;
+
+&lt;p&gt;Secondly, I’ve finished converting ADBassist from gtk to swing… I choose gtk initially to get brownie points in the Ubuntu App Challenge and also with the ulterior motive of learning something new. The Java wrapper for gtk was certainly easy to use and I think some things like images and layouts were a touch more user friendly to use but all in all I felt limited in what I could do and was uncertain how well it will handle background processes when I get them going soon. I also felt a touch bad making an application with platform dependencies that were not strictly necessary… that is, I wouldn’t’ve minded using gtk if I got any extra capability, but it seemed not to offer anything I was using (dbus support is the only thing that springs to mind, and I wasn’t using that).&lt;/p&gt;
+
+&lt;p&gt;Finally there is also an upcoming open source event in Melbourne (so if you’re not from Australia you might not be all that interested) this week. It totally looks more like an event for managers than techs, but it has potential to be interesting and most importantly there’s free food! Although there is zero chance of me being there by 5:30, but I’ll defiantly rock up at some stage before 8. Well, I’d better go rsvp and try to prepare the release of orbitals. Details below:&lt;/p&gt;
+
+&lt;p&gt;“What does the NBN mean to the Open Source Software Industry”
+Date:  Wednesday 22 August
+Time:  5.30 pm for 6.00 pm start to 8.00 pm
+Venue:  NBNCo Discovery Center
+            1010 La Trobe St, Docklands
+Please help make this event a success by promoting it through your own channels as appropriate.
+Event Program:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Presentation by NBN Senior Staff on opportunities that likely to arise from the NBN.&lt;br /&gt;
+There will also be other NBN personel who will be able to answer questions.&lt;/li&gt;
+  &lt;li&gt;Presentation by Kanchana Wickremasinghe, Senath Ltd.
+Kanchana will talk about Senath’s use of Open Source software to deliver the Cloud based PaaS Durga Platform.&lt;/li&gt;
+  &lt;li&gt;Update on OSIA activities.&lt;/li&gt;
+  &lt;li&gt;Networking opportunity with other guests
+Refreshments available.
+Following the event, you are also invited to join others for dinner somewhere in Melbourne.
+** Please note: RSVP by 20 August is essential. Email osia-events@osia.com.au. **&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Just a little update on Orbital Live Wallpaper (source), after messing around with the internals (there was some shifty maths going on in the background) I’ve been able to separate out the transition away and the transition back to orbit. This allows the transitions to form some interesting patterns. I have also added a new transition (I was hoping for two, but just want to get the updates and fixes out) and a couple of color schemes. Hopefully I’ll be releasing this weekend.</summary></entry></feed>
