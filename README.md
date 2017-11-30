@@ -1,12 +1,24 @@
 # Development-Adventures
-Development adventures blog for PuZZleDucK.org hosted on GitHub Pages at https://puzzleduck.github.io/Development-Adventures/
+Development adventures blog for PuZZleDucK.org hosted on GitLab Pages at https://gitlab.com/puzzleduck/Development-Adventures
 
-Development and deployment occurs on the gh-pages branch
+Development and deployment occurs on the master branch
 
 # Setup
 
 ```bash
-git clone https://github.com/PuZZleDucK/Development-Adventures.git
+git clone https://gitlab.com/puzzleduck/Development-Adventures.git
 cd Development-Adventures
-jekyll serve
+bundler install
 ```
+
+# Development
+
+```
+jekyll serve
+http://127.0.0.1:4000/Development-Adventures/
+```
+
+
+# Theme
+
+Custom PuZZleDucK jekyll theme... get it now: https://github.com/PuZZleDucK/jekyll-theme-puzzleduck
