@@ -6,7 +6,7 @@ description: > # ignore newlines until "baseurl:"
 
 
 baseurl: "/Development-Adventures"
-url: "https://puzzleduck.github.io"
+url: "https://puzzleduck.gitlab.io"
 twitter_username: _PuZZleDucK_
 github_username:  puzzleduck
 

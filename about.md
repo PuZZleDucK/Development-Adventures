@@ -11,4 +11,4 @@ You can find more of my work at:
 - [LinkedIn](https://au.linkedin.com/in/puzzleduck)
 
 You can find the source code for this blog at:
-[Development Adventures](https://github.com/PuZZleDucK/Development-Adventures)
+[Development Adventures](https://gitlab.com/PuZZleDucK/Development-Adventures)
