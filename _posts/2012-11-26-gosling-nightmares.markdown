@@ -3,6 +3,7 @@ layout: post
 title:  "A Device to Give Gosling Nightmares"
 date:   2012-11-26 19:37:56 +1100
 categories: article
+title-image: duke.png
 ---
 
 

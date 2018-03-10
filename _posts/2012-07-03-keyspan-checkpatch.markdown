@@ -3,6 +3,7 @@ layout: post
 title:  "Linux Kernel - Keyspan Checkpatch"
 date:   2012-07-03
 categories: article
+title-image: tux.png
 ---
 
 #### fixes for drivers/usb/serial/keyspan.c

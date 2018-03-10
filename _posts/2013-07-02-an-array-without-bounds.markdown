@@ -3,6 +3,7 @@ layout: post
 title:  "An Array Without Bounds"
 date:   2013-07-02 19:37:56 +1100
 categories: article
+title-image: duke.png
 ---
 
 I just wanted to write a short piece about a horrifying little trick in java I learnt from trawling through the back catalogue of Dr. Heinz K's newsletter. I highly recommend skimming the article list for interesting titles at a minimum.

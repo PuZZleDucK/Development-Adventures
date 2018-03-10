@@ -3,6 +3,7 @@ layout: post
 title:  "BASH Obsfucation Contest Entry"
 date:   2012-09-15 19:37:56 +1100
 categories: article
+title-image: tux.png
 ---
 
 Ok, here it is at last, my XDA Developers "BASH Obsfucation Contest" entry, gee I hope Blogger doesn't chew up my formatting or escape chars... oh well here goes nothing... and let me know in the comments if you work it out :D

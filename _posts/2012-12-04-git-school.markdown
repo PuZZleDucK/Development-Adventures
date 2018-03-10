@@ -3,6 +3,7 @@ layout: post
 title:  "Git yourself a schooling (in Git)"
 date:   2012-12-04 19:37:56 +1100
 categories: article
+title-image: CfA_Logo_black.png
 ---
 
 CodeSchool:

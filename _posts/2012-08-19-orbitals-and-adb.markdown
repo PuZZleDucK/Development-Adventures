@@ -3,6 +3,7 @@ layout: post
 title:  "Orbitals 2 ready for release, ADBassist conversion and OSIA"
 date:   2012-08-19 19:37:56 +1100
 categories: article
+title-image: duke.png
 ---
 
 Just a little update on Orbital Live Wallpaper (source), after messing around with the internals (there was some shifty maths going on in the background) I've been able to separate out the transition away and the transition back to orbit. This allows the transitions to form some interesting patterns. I have also added a new transition (I was hoping for two, but just want to get the updates and fixes out) and a couple of color schemes. Hopefully I'll be releasing this weekend.

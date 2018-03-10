@@ -3,13 +3,12 @@ layout: post
 title:  "Java 8 Lambdas and LEDs"
 date:   2014-07-02 19:37:56 +1100
 categories: article
+title-image: duke.png
 ---
 
 
 
-Why settle for embedded programming when the Raspberry Pi brings the full power of JavaSE into the embedded world.
-
-Settup Pi according to taste, for me the base setup from scratch is:
+Why just settle for embedded programming when the Raspberry Pi brings you the full power of Java and Java SE into the embedded world. Step one is to settup your Raspberry Pi according to taste, for me the base setup from scratch is:
 
     Expand FS, SSH on, password change, host-name change (raspi-config).
 

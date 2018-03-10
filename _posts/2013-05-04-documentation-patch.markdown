@@ -3,6 +3,7 @@ layout: post
 title:  "Linux Kernel - Documentation Patch"
 date:   2013-05-04
 categories: article
+title-image: tux.png
 ---
 
 Documentation Patch (What have I gotten myself into?)

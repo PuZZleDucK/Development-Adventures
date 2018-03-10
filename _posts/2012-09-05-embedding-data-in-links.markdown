@@ -3,6 +3,7 @@ layout: post
 title:  "Embedding Page Data in a Link"
 date:   2012-09-05 19:37:56 +1100
 categories: article
+title-image: HTML_5.png
 ---
 
 Just read an interesting article about embedding page data right into the link and some kind fellow on Slashdot created an example ... just wondering if I can host the <<same link here on Blogger>>. For some odd reason or another the link does not show up in the normal way so i have surrounded it with guillemets... and I'm running FireFox on Linux: it won't work on me so I need your feedback... Does it work for you?

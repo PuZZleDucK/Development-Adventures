@@ -3,6 +3,7 @@ layout: post
 title:  "Data Retention and a Plea to Wikipedia"
 date:   2012-09-08 19:37:56 +1100
 categories: article
+title-image: CfA_Logo_black.png
 ---
 
 Hi all, this post is not so much about development but it's all about attention and I get more traffic here than on any other blog, and it's related to the internet as a whole... So I've been mopping about the new Australian mandatory data retention plot<ahem>scheme<chough>plan... whatever, for a while now and it looks like we're going to get it... At least they did hear from some community representatives (I'll report back on how it went when I find out), but they will probably be ignored.

@@ -7,6 +7,7 @@ Development and deployment occurs on the gh-pages branch
 
 ```bash
 git clone https://gitlab.com/puzzleduck/Development-Adventures.git
+bundle update
 cd Development-Adventures
-jekyll serve
+bundle exec jekyll serve
 ```

@@ -3,6 +3,7 @@ layout: post
 title:  "Linux Kernel - Intro and Setup"
 date:   2013-01-01
 categories: article
+title-image: tux.png
 ---
 
 

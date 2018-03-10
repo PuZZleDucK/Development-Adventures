@@ -3,6 +3,7 @@ layout: post
 title:  "Linux Kernel - Belkin Serial Patch"
 date:   2012-04-02
 categories: article
+title-image: tux.png
 ---
 
 #### Uneventfull beginnings.
