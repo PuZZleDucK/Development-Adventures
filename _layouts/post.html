@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="row">
+    <div class="col s12 l12 cards-container highlight">
+
+      <div class="card primary z-depth-5">
+        <div class="card-title center">
+          <h3 class="title valign-wrapper">
+            {% if page.title-image %}
+              <img class="hide-on-small-only" height="100px" src="{{ site.baseurl }}/assets/img/{{ page.title-image }}" />
+            {% else %}
+              <img class="hide-on-small-only" height="100px" src="{{ site.baseurl }}/assets/img/no_image.svg" />
+            {% endif %}
+            <p text-align="center" align="center" class="center truncate"> {{ page.title | escape }} </p>
+          </h3>
+          <hr />
+        </div>
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+</article>

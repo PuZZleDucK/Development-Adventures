@@ -1,7 +1,7 @@
 # Development-Adventures
 Development adventures blog for PuZZleDucK.org hosted on GitHub Pages at https://puzzleduck.github.io/Development-Adventures/
 
-The source is maintained on the `master` branch and the generated site is deployed from `gh-pages`.
+The source is maintained on the `master` branch and deployed with GitHub Pages.
 
 # Setup
 

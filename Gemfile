@@ -12,7 +12,6 @@ ruby RUBY_VERSION
 gem "jekyll", "~> 3.10"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "jekyll-theme-puzzleduck"
 gem "kramdown-parser-gfm"
 gem "rake"
 

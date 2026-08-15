@@ -12,7 +12,6 @@ github_username:  puzzleduck
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-puzzleduck
 plugins:
   - jekyll-feed
 exclude:
