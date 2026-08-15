@@ -6,14 +6,14 @@ description: > # ignore newlines until "baseurl:"
 
 
 baseurl: "/Development-Adventures"
-url: "https://puzzleduck.gitlab.io"
+url: "https://puzzleduck.github.io"
 twitter_username: _PuZZleDucK_
 github_username:  puzzleduck
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-puzzleduck
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

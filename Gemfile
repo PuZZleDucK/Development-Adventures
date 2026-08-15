@@ -9,10 +9,11 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.3.1"
+gem "jekyll", "~> 3.10"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "jekyll-theme-puzzleduck"
+gem "kramdown-parser-gfm"
 gem "rake"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

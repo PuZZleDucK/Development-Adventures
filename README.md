@@ -1,13 +1,15 @@
 # Development-Adventures
-Development adventures blog for PuZZleDucK.org hosted on GitLab Pages at https://puzzleduck.gitlab.io/Development-Adventures/
+Development adventures blog for PuZZleDucK.org hosted on GitHub Pages at https://puzzleduck.github.io/Development-Adventures/
 
-Development and deployment occurs on the gh-pages branch
+The source is maintained on the `master` branch and the generated site is deployed from `gh-pages`.
 
 # Setup
 
 ```bash
-git clone https://gitlab.com/puzzleduck/Development-Adventures.git
-bundle update
+git clone https://github.com/PuZZleDucK/Development-Adventures.git
 cd Development-Adventures
+bundle install
 bundle exec jekyll serve
 ```
+
+For the Artigas LAN deployment, use `script/serve-lan`.
