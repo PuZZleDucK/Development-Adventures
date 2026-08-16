@@ -3,40 +3,27 @@ layout: default
 ---
 
 <div class="home">
-
   {{ content }}
 
-  <div class="col card-panel highlight">
-
-    <div class="col card-panel primary">
-      <h4 class="page-heading center-align">Articles</h4>
-    </div>
-
-    <div class="row">
-
-        {% for post in site.posts %}
-          <div class="col s12 m6 l4 cards-container">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              <div class="card primary z-depth-5">
-                <div class="card-title center">
-                  <h5 class="title valign-wrapper">
-                    {% if post.title-image %}
-                      <img class="hide-on-small-only" height="100px" src="assets/img/{{ post.title-image }}" />
-                    {% else %}
-                      <img class="hide-on-small-only" height="100px" src="assets/img/no_image.svg" />
-                    {% endif %}
-                    <p align="center">{{ post.title | escape }}</p>
-                  </h5>
-                  <hr />
-                </div>
-                <div class="post-content center" itemprop="articleBody">
-                  <p>{{ post.excerpt }}</p>
-                </div>
-              </div>
-            </a>
+  <h1 class="section-heading">Adventure archive</h1>
+  <div class="article-grid">
+    {% for post in site.posts %}
+      <a class="article-card" href="{{ post.url | relative_url }}">
+        <div class="article-card-banner"></div>
+        <div class="article-card-body">
+          <div class="article-card-heading{% if post.title-image == 'no_image.svg' or post.title-image == nil %} no-image{% endif %}">
+            {% if post.title-image and post.title-image != 'no_image.svg' %}
+              <img class="article-icon" src="{{ '/assets/img/' | append: post.title-image | relative_url }}" alt="" loading="lazy">
+            {% endif %}
+            <div>
+              <div class="article-date">{{ post.date | date: "%d %B %Y" }}</div>
+              <h2>{{ post.title | escape }}</h2>
+            </div>
           </div>
-        {% endfor %}
-
-    </div>
+          <p class="article-excerpt">{{ post.excerpt | strip_html | normalize_whitespace | truncate: 240 }}</p>
+          <div class="article-cta">Read entry →</div>
+        </div>
+      </a>
+    {% endfor %}
   </div>
 </div>

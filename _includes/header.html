@@ -1,32 +1,20 @@
-<header class="site-header" role="banner">
-
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" defer></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js" defer></script>
-
-    <div class="col card-panel highlight title">
-      <ul id="dropDown" class="dropdown-content primary">
-         <li><a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></li>
-         <li class="divider"></li>
-         <li><a target="_blank" href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-         <li class="divider"></li>
-         <li><a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
-         <li class="divider"></li>
-         <li><a target="_blank" href="https://play.google.com/store/apps/developer?id={{ site.android_username }}">Android</a></li>
-      </ul>
-      <nav>
-         <div class="nav-wrapper primary">
-            <a href="{{ site.url }}" class="brand-logo center truncate">{{ site.title }}</a>
-            <ul id="nav-mobile" class="right">
-               <li style="width: 300px !important"><a class="dropdown-button" href="#!" data-activates="dropDown"><i class="material-icons right">menu</i></a></li> <!-- Dropdown Trigger -->
-            </ul>
-         </div>
+<header role="banner">
+  <div class="site-topbar">
+    <div class="site-shell">
+      <a class="site-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ "/" | relative_url }}">Articles</a>
+        <a href="{{ "/about/" | relative_url }}">About</a>
+        <a href="https://github.com/{{ site.github_username }}/Development-Adventures">Source</a>
       </nav>
-      <h5 class="white-text center">{{ site.description }}</h5>
     </div>
+  </div>
 
+  <div class="site-masthead site-shell">
+    <div class="masthead-panel">
+      <div class="site-eyebrow">Development log</div>
+      <div class="site-title">{{ site.title }}</div>
+      <p class="site-description">{{ site.description | strip }}</p>
+    </div>
   </div>
 </header>

@@ -1,8 +1,10 @@
-<footer class="page-footer highlight title">
-   <div class="footer-copyright">
-      <div class="container">
-         © 2017 <a href="mailto:{{ site.copyright_email }}">{{ site.copyright_name }}</a>
-         <a class="grey-text text-lighten-4 right" target="_blank" href="{{ site.source_url }}">Site Source Code</a>
-      </div>
-   </div>
+<footer class="site-footer">
+  <div class="site-shell footer-row">
+    <span>© {{ site.time | date: "%Y" }} PuZZleDucK · Built with Jekyll</span>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+      <a href="https://android-development-adventures.blogspot.com/">Blogger archive</a>
+      <a href="https://github.com/{{ site.github_username }}/Development-Adventures">Source code</a>
+    </nav>
+  </div>
 </footer>
