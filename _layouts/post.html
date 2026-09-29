@@ -4,7 +4,14 @@ layout: default
 <article class="post-panel" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <div class="post-kicker">Development adventure</div>
+    {% if page.show-title-icon and page.title-image and page.title-image != 'no_image.svg' %}
+    <div class="post-title-row">
+      <img class="post-app-icon" src="{{ '/assets/img/' | append: page.title-image | relative_url }}" alt="" width="64" height="64">
+      <h1 class="post-title" itemprop="headline">{{ page.title | escape }}</h1>
+    </div>
+    {% else %}
     <h1 class="post-title" itemprop="headline">{{ page.title | escape }}</h1>
+    {% endif %}
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d %B %Y" }}</time>
       {% if page.source_url %}<a href="{{ page.source_url }}">Original Blogger post ↗</a>{% endif %}

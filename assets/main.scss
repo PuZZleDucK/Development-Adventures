@@ -250,6 +250,13 @@ img { max-width: 100%; height: auto; }
   font: 800 clamp(1.8rem, 6vw, 3rem)/1.12 Georgia, "Times New Roman", serif;
   text-shadow: 0 2px 2px #000;
 }
+.post-title-row { display: flex; align-items: center; gap: 1rem; }
+.post-title-row .post-title { min-width: 0; }
+.post-app-icon { width: 4rem; height: 4rem; flex: 0 0 auto; object-fit: contain; }
+@media (max-width: 480px) {
+  .post-title-row { display: block; }
+  .post-app-icon { margin-top: .65rem; }
+}
 .post-meta { display: flex; flex-wrap: wrap; gap: .5rem 1rem; color: #d1b28a; font-size: .86rem; }
 .post-meta a { color: var(--accent-bright); }
 .post-content,

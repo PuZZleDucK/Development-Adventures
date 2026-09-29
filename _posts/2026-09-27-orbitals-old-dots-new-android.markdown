@@ -4,7 +4,8 @@ title: "Orbitals returns: old dots, new Android, and a little help from Codex"
 excerpt: "Revisiting a 2012 live wallpaper with Codex and Android 16: loading dots, trefoil knots, local settings and no analytics."
 date: 2026-09-27 12:00:00 +0000
 categories: article
-title-image: no_image.svg
+title-image: orbitals.png
+show-title-icon: true
 ---
 
 *A development update, not a new store-release announcement.*
