@@ -324,3 +324,20 @@ pre code { padding: 0; color: #e8dfd2; background: transparent; }
   .article-grid { grid-template-columns: 1fr; }
   .post-content, .page-body { overflow-wrap: anywhere; }
 }
+
+/* Paired, full-aspect phone captures in the Orbital development article. */
+.post-screenshots { margin: 1.5rem 0; }
+.post-screenshots .screenshot-pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.post-screenshots a { flex: 0 1 300px; min-width: 0; }
+.post-content .post-screenshots img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  margin: 0;
+}
+.post-screenshots figcaption { margin-top: .8rem; font-size: .9rem; }
