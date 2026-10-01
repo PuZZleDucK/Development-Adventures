@@ -348,3 +348,7 @@ pre code { padding: 0; color: #e8dfd2; background: transparent; }
   margin: 0;
 }
 .post-screenshots figcaption { margin-top: .8rem; font-size: .9rem; }
+
+/* Full-aspect current app screens in the Mixtape article. */
+.mixtape-screenshots .screenshot-pair a { flex-basis: 340px; }
+.mixtape-screenshots.screenshot-wide .screenshot-pair a { flex-basis: 100%; }
