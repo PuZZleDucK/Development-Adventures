@@ -2,7 +2,7 @@
 layout: post
 title: "Mixtape: real music, pretend plastic"
 excerpt: "The feel of a cassette collection, with the convenience of an Android music player: turning reels, handwritten sleeves and a familiar rush of fast-forwarded music."
-date: 2026-09-30 00:00:00 +1000
+date: 2026-10-01 19:59:12 +1000
 categories: article
 permalink: /mixtape-real-music-pretend-plastic/
 title-image: mixtape.png
