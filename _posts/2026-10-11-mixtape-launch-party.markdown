@@ -7,4 +7,4 @@ permalink: /mixtape-launch-party/
 title-image: mixtape.png
 ---
 
-<a href="{{ '/assets/mixtape-launch/Mixtape_Launch_Flyer.pdf' | relative_url }}"><img src="{{ '/assets/mixtape-launch/flyer.png' | relative_url }}" alt="Mixtape Android app launch party. Friday 16 October 2026 at 8:00pm, Loop Roof, Level 4, 23 Meyers Place. Get the app from Friday the 16th. Open the original PDF flyer." width="1136" height="1600" style="display: block; width: 100%; height: auto;"></a>
+<a href="{{ '/assets/mixtape-launch/Mixtape_Launch_Flyer.pdf' | relative_url }}"><img src="{{ '/assets/mixtape-launch/flyer.png' | relative_url }}" alt="Mixtape Android app launch party. Friday 16 October 2026 at 8:00pm, Loop Roof, Level 4, 23 Meyers Place. Get the app from Friday the 16th. Open the original PDF flyer." width="1136" height="1600" style="display: block; width: 100%; height: auto; max-height: none;"></a>
